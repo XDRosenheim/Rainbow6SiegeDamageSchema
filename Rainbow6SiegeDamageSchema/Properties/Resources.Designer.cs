@@ -38,7 +38,7 @@ namespace Rainbow6SiegeDamageSchema.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if(( resourceMan == null )) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager( "Rainbow6SiegeDamageSchema.Properties.Resources", typeof( Resources ).Assembly );
+                    var temp = new global::System.Resources.ResourceManager( "Rainbow6SiegeDamageSchema.Properties.Resources", typeof( Resources ).Assembly );
                     resourceMan = temp;
                 }
                 return resourceMan;
